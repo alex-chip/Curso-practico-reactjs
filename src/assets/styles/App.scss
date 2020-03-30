@@ -1,9 +1,12 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
   margin: 0;
-  background-color: red;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $theme-font;
+  background: $main-color;
 }
 
-h1 {
-  margin: 0;
+* {
+  box-sizing: border-box;
 }
